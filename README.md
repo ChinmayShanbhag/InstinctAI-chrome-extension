@@ -56,6 +56,6 @@ A smart Chrome extension that instinctively understands your highlighted text an
 ## 📬 Contact
 
 Made with ❤️ by Chinmay Shanbhag  
-[LinkedIn](https://www.linkedin.com/in/chinmay-shanbhag/) | [GitHub](#)
+[LinkedIn](https://www.linkedin.com/in/chinmay-shanbhag/) | [GitHub](https://github.com/ChinmayShanbhag)
 
 ---
