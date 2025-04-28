@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>InstinctAI</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="tabs">
+  <button id="tab-current" class="tab-active">Current</button>
+  <button id="tab-memory">History</button>
+</div>
+
+<div id="tab-content-current">
+  <textarea id="input" placeholder="Enter or highlight text..." rows="4" style="width: 100%; margin-bottom: 10px;"></textarea>
+
+  <button id="processBtn" style="margin-bottom: 10px;">Process Text</button>
+
+  <div id="output"></div>
+</div>
+
+<div id="tab-content-memory" style="display: none;">
+  <button id="clearMemoryBtn" style="margin-bottom: 10px;">Clear History</button>
+  <div id="memoryContainer"></div>
+</div>
+
+<script type="module" src="popup.js"></script>
+
+</body>
+</html>

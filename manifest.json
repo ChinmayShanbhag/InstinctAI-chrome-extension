@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "InstinctAI",
+  "version": "1.0",
+  "description": "Summarize, explain, and rewrite text with Gemini AI.",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "scripting",
+    "storage",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
